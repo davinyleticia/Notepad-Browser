@@ -90,4 +90,3 @@ As permissões desta licença copyleft forte estão condicionadas a disponibiliz
 Sistema feito 💜 pela Daviny Vidal.
 
 Github @github/davinyvidal
-Github @github/davinyvidal/Notepad-Browser
