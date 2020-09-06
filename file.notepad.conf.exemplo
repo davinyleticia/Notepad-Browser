@@ -2,7 +2,7 @@
     ServerAdmin admin@example.com
     ServerName file.notepad
     ServerAlias file.notepad
-    DocumentRoot /opt/Notepad-Browser/file/
+    DocumentRoot /opt/Notepad-Browser/Notepad-Browser/file/
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 

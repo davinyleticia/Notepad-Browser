@@ -2,7 +2,7 @@
     ServerAdmin admin@example.com
     ServerName create.notepad
     ServerAlias create.notepad
-    DocumentRoot /opt/Notepad-Browser/text/
+    DocumentRoot /opt/Notepad-Browser/Notepad-Browser/text/
     ErrorLog ${APACHE_LOG_DIR}/error.log
     CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
