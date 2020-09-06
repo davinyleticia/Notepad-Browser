@@ -82,6 +82,31 @@ sudo sh ./install.sh
 
 - Quando terminar um pasta simbólica ficará na sua pasta Home com o nome __files__
 
+
+## 💾 Instalado no PC que não será o servidor, apenas o Atalho URL
+
+- Primeiro e aconselhavel está disponível um editor terminal, neste tutorial irei usar o nano
+
+Acrescenta no /etc/hosts
+
+```bash
+sudo nano /etc/hosts
+```
+Substitui os xxx.xxx.xx.xx por IP da máquina que está instalado o Notepad-Browser
+
+```bash
+xxx.xxx.xx.xx  create.notepad
+xxx.xxx.xx.xx  link.notepad
+xxx.xxx.xx.xx  file.notepad
+```
+pronto agora é só abrir o navegador e digitar os endereços:
+
+  http://create.notepad
+  http://file.notepad
+  http://link.notepad
+
+
+> obs.: está solução apresentado e apenas para os computadores que estão na mesma rede.
 ## 📜 Lincença:
 
 ####  📢 Licença Pública Geral GNU v3.0
