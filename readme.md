@@ -20,6 +20,7 @@
 ## 🎥 Print Screen
 
 ![Print Screen](./tela.png)
+![Print Screen](./tela2.png)
 
 ## 🔎 Requisitos
 
