@@ -19,7 +19,7 @@
 
 ## 🎥 Print Screen
 
-![Print Screen](./tela.png)
+![Print Screen](../../tela.png)
 
 ## 🔎 Requisitos
 
@@ -28,36 +28,6 @@
 * Apache
 * Sistema operacional que suporta Virtual Host
     * Aconselhamos usar um sistema baseado em Unix.
-
-## 🎫 Árvore de pasta do projeto:
-
-```bash
-|---  file
-|     | index.php
-|     | functionFile.php
-|     | file.php
-|     |---   __doc__
-|            |create.notepad.conf.exemplo
-|            |link.notepad.conf.exemplo
-|            |file.notepad.conf.exemplo
-|            |readme.html
-|            |readme.html
-|            |doc.html
-|
-|---  text
-|     | index.php
-|     | saved.php
-|     | functionSaved.php
-|
-|---  link
-|     | index.php
-|     | saved.php
-|     | functionSaved.php
-|
-| readme.md
-| tela.png
-
-```
 
 ## 💾 Instalação Ubuntu Derivados
 
@@ -106,8 +76,12 @@ pronto agora é só abrir o navegador e digitar os endereços:
   http://file.notepad
   http://link.notepad
 
-
 > obs.: está solução apresentado e apenas para os computadores que estão na mesma rede.
+
+## 💾 Instalar Manual:
+
+[Doc de instalação manual](./doc.html)
+
 ## 📜 Lincença:
 
 ####  📢 Licença Pública Geral GNU v3.0

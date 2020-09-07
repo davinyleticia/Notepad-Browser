@@ -7,6 +7,7 @@ if (isset($_GET['id']))
     $tipo = "txt";
 }
 include"./functionFile.php";
+include"./versao.php";
 ?>
 
 <!DOCTYPE html>
@@ -15,8 +16,8 @@ include"./functionFile.php";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notepad - Files</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="icon" type="image/png" href="http://create.notepad/dv-logo.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="./dv-logo.png">
     <style>
     .file {
     /* Apenas para centralizar o form na página */
@@ -57,10 +58,15 @@ include"./functionFile.php";
     font: 22px sans-serif;
     margin: 7px;
 }
-
     </style>
+
 </head>
 <body>
+<div class="alert alert-primary" role="alert">
+Status: <?= @$json['status']; ?> | Versão: <?= @$json['versao']; ?> | Status da rede: <?= @$json['conectado']; ?>
+</div>
+
+
 <div class="file">
     <div class="form-group">
         <DIV>
@@ -70,7 +76,7 @@ include"./functionFile.php";
     <a class="btn btn-info" href="./?id=txt"> Note List </a>
     <a class="btn btn-success" href="http://link.notepad"> Save Link </a>
     <a class="btn btn-success" href="http://create.notepad"> Save Text </a>
-    <a class="btn btn-secondary active" href="http://file.notepad/readme.html" > Help </a>
+    <a class="btn btn-secondary active" href="http://file.notepad/__doc__/readme.html" > Help </a>
 
     <BR><BR>
     <?php

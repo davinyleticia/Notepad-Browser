@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notepad - Save Link</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="icon" type="image/png" href="http://create.notepad/dv-logo.png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="./dv-logo.png">
     <style>
     form {
     /* Apenas para centralizar o form na página */
@@ -75,7 +75,7 @@
     <a class="btn btn-info" href="http://file.notepad/?id=txt"> Note List </a>
     <a class="btn btn-success" href="http://link.notepad"> Save Link </a>
     <a class="btn btn-success" href="http://create.notepad"> Save Text </a>
-    <a class="btn btn-secondary active" href="http://file.notepad/readme.html" > Help </a>
+    <a class="btn btn-secondary active" href="http://file.notepad/__doc__/readme.html" > Help </a>
     </div>
     <div class="autora">
     <hr>
