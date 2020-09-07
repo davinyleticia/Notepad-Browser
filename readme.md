@@ -19,7 +19,12 @@
 
 ## 🎥 Print Screen
 
+Tela para escrever no Notepad:
+
 ![Print Screen](./tela.png)
+
+Tela de visualização do conteúdo:
+
 ![Print Screen](./tela2.png)
 
 ## 🔎 Requisitos
