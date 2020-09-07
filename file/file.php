@@ -79,6 +79,7 @@ Status: <?= @$json['status']; ?> | Versão: <?= @$json['versao']; ?> | Status da
     file_display($url);
     ?>
     </div>
+	<HR>
     <div class="autora">
     👩 Made 💜 by Daviny Vidal.
     </div>
