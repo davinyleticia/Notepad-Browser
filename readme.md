@@ -4,9 +4,9 @@
 ![Tag informação: Linguagem PHP](https://img.shields.io/badge/Linguagem-PHP-blue) ![Tag informação: Banco de dados mysql](https://img.shields.io/badge/DB-File-brightgreen) ![Tag informação: Nível do projeto - start junior](https://img.shields.io/badge/N%C3%ADvel%20do%20Projeto-Necessidade-yellow)
 
 
-[@github/davinyvidal](https://github.com/davinyvidal/)
+[@github/davinyleticia](https://github.com/davinyleticia/)
 
-[@github/davinyvidal/Notepad-Browser](https://github.com/davinyvidal/Notepad-Browser)
+[@github/davinyleticia/Notepad-Browser](https://github.com/davinyleticia/Notepad-Browser)
 
 
 ## 🚀 Objetivo
@@ -21,11 +21,11 @@
 
 Tela para escrever no Notepad:
 
-![Print Screen](./tela.png)
+![Print Screen](https://raw.githubusercontent.com/davinyleticia/Notepad-Browser/refs/heads/master/tela.png)
 
 Tela de visualização do conteúdo:
 
-![Print Screen](./tela2.png)
+![Print Screen](https://raw.githubusercontent.com/davinyleticia/Notepad-Browser/refs/heads/master/tela2.png)
 
 ## 🔎 Requisitos
 
@@ -120,6 +120,6 @@ pronto agora é só abrir o navegador e digitar os endereços:
 As permissões desta licença copyleft forte estão condicionadas a disponibilizar o código fonte completo das obras e modificações licenciadas, que incluem obras maiores usando uma obra licenciada, sob a mesma licença. Os avisos de direitos autorais e licença devem ser preservados. Os colaboradores fornecem uma concessão expressa de direitos de patente.
 
 #### 👩 Considerações finais
-Sistema feito 💜 pela Daviny Vidal.
+Sistema feito 💜 pela Daviny Letícia.
 
-Github @github/davinyvidal
+Github @github/davinyleticia
